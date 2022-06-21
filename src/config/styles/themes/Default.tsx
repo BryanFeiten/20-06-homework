@@ -1,6 +1,6 @@
 import { createTheme } from '@mui/material/styles';
 
-createTheme({
+export default createTheme({
 	palette: {
 		primary: {
 			main: '#2b385b'
@@ -10,5 +10,3 @@ createTheme({
 		},
 	},
 })
-
-export default createTheme;
